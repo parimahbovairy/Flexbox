@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(200, 246, 246);
+}
+.menu {
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+nav ul li {
+  border: 2px solid black;
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: solid;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: rgb(0, 8, 255);
+  transition: 0.8ms;
+  background-color: rgb(219, 210, 50);
+}
+#img1 {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  height: 50vh;
+}
+#para1 {
+  text-align: center;
+  font-size: xx-large;
+}
+.divs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div1 {
+  text-align: center;
+  background-color: #edc479;
+  border: 2px solid black;
+  width: 300px;
+  height: 380px;
+}
+.div2 {
+  text-align: center;
+  background-color: #9aed89;
+  border: 2px solid black;
+  width: 300px;
+  height: 380px;
+}
+.div3 {
+  text-align: center;
+  background-color: #f298a7;
+  border: 2px solid black;
+  width: 300px;
+  height: 380px;
+}
+#p-Mountaineering {
+  font-size: xx-large;
+}
+#a-Mountaineering {
+  border: 1px dashed brown;
+}
+#a-Diving {
+  border: 1px dashed brown;
+}
+
+#p-Diving {
+  font-size: xx-large;
+}
+#a-Jungle {
+  border: 1px dashed brown;
+}
+#p-Jungle {
+  font-size: xx-large;
+}
+#foot {
+  text-align: center;
+}
